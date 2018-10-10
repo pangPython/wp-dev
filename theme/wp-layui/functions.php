@@ -10,4 +10,9 @@ function add_css_js(){
 }
 add_action( 'wp_enqueue_scripts', 'add_css_js' );
 
+//注册菜单
+//register_nav_menus( array(
+	//'header_menu' => 'Header Menu',
+	//'footer_menu' => 'My Custom Footer Menu'
+//) );
 ?>
